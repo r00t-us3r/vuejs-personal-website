@@ -20,3 +20,5 @@ npm run build
 ```
 npm run lint
 ```
+
+[![HitCount](http://hits.dwyl.com/r00t-us3r/vuejs-personal-website.svg)](http://hits.dwyl.com/r00t-us3r/vuejs-personal-website)
