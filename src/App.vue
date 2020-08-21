@@ -13,16 +13,16 @@
             </div>
             <ul class="menu-nav" id="nav">
                 <li class="nav-item current" id="home" @click="toggleActive('home')">
-                    <router-link to="/">home</router-link>
+                    <router-link to="/" class="nav-link">home</router-link>
                 </li>
                 <li class="nav-item" id="about" @click="toggleActive('about')">
-                    <router-link to="/about">about</router-link>
+                    <router-link to="/about" class="nav-link">about</router-link>
                 </li>
                 <li class="nav-item" id="work" @click="toggleActive('work')">
-                    <router-link to="/work">work</router-link>
+                    <router-link to="/work" class="nav-link">work</router-link>
                 </li>
                 <li class="nav-item" id="contact" @click="toggleActive('contact')">
-                    <router-link to="/contact">how to reach me</router-link>
+                    <router-link to="/contact" class="nav-link">how to reach me</router-link>
                 </li>
             </ul>
         </nav>
