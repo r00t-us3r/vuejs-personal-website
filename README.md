@@ -1,6 +1,7 @@
-# spa
+# deancole.info (Vue.js)
+I've created this project to aid my learning of Vue.js. My website is a simple static html site and this is a conversion of that html site into Vue.js utilizing various components.
 
-## Project setup
+## Run it locally?
 ```
 npm install
 ```
@@ -19,6 +20,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
