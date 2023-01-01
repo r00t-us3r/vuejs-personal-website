@@ -10,14 +10,6 @@
         <div class="projects">
             <div class="item">
                 <a href="#!">
-                    <img src="../assets/img/projects/laraveldocker.png" alt="TheParadigm">
-                </a>
-                <a href="https://github.com/r00t-us3r/laravel-docker" class="btn-light">
-                    <i class="fab fa-github"></i> Laravel Docker
-                </a>
-            </div>
-            <div class="item">
-                <a href="#!">
                     <img src="../assets/img/projects/mycustomapparel.png" alt="My Custom Apparel">
                 </a>
                 <a href="https://www.mycustomapparel.co.uk" class="btn-light">
@@ -26,19 +18,16 @@
             </div>
             <div class="item">
                 <a href="#!">
-                    <img src="../assets/img/projects/electroneumstats.png" alt="Electroneum Stats">
+                    <img src="../assets/img/projects/cocktail-book.png" alt="Cocktail Book">
                 </a>
-                <a href="https://github.com/r00t-us3r/etn-stats-desktop" class="btn-light">
-                    <i class="fab fa-github"></i> Electroneum Stats
-                </a>
-            </div>
-            <div class="item">
-                <a href="#!">
-                    <img src="../assets/img/projects/electroneumgui.png" alt="Electroneum GUI">
-                </a>
-                <a href="https://github.com/r00t-us3r/electrovault-gui" class="btn-light">
-                    <i class="fas fa-eye"></i> Electroneum GUI (Desktop Wallet GUI)
-                </a>
+                <div style="display: flex; justify-content: space-evenly; flex-direction: row">
+                  <a href="https://github.com/r00t-us3r/electrovault-gui" style="width: 50%;">
+                      <img src="../assets/img/google-play-badge.png" style="border: 0" />
+                  </a>
+                  <a href="https://github.com/r00t-us3r/electrovault-gui" style="width: 50%;">
+                      <img src="../assets/img/app-store-badge.svg" style="padding: 6px; border: 0" />
+                  </a>
+                </div>
             </div>
         </div>
     </main>
