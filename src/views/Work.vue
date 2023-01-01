@@ -21,7 +21,7 @@
                     <img src="../assets/img/projects/cocktail-book.png" alt="Cocktail Book">
                 </a>
                 <div style="display: flex; justify-content: space-evenly; flex-direction: row">
-                  <a href="https://github.com/r00t-us3r/electrovault-gui" style="width: 50%;">
+                  <a href="#" style="width: 50%;">
                       <img src="../assets/img/google-play-badge.png" style="border: 0" />
                   </a>
                   <a href="https://github.com/r00t-us3r/electrovault-gui" style="width: 50%;">
