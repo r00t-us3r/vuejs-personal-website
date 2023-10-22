@@ -5,11 +5,27 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-new Vue({
+import VueGtm from '@gtm-support/vue2-gtm';
+import VueAnalytics, {onAnalyticsReady} from "vue-analytics";
+
+Vue.use(VueGtm, {
+    id: 'GTM-TVPVJXX2',
+    vueRouter: router
+})
+
+Vue.use(VueAnalytics, {
+    id: 'G-ETZZN3KER8'
+})
+
+const vueInstance = new Vue({
     router,
     store,
     render: h => h(App)
-}).$mount('#app')
+});
+onAnalyticsReady().then(() => {
+    vueInstance.$mount('#app');
+})
+
 
 // Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
@@ -21,9 +37,7 @@ const navItems = document.querySelectorAll('.nav-item');
 // Set Initial State Of Menu
 let showMenu = false;
 
-menuBtn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
+menuBtn.addEventListener('click', function () {
     if (!showMenu) {
         menuBtn.classList.add('close');
         menu.classList.add('show');
@@ -43,4 +57,4 @@ function toggleMenu() {
         // Set Menu State
         showMenu = false;
     }
-}
+});

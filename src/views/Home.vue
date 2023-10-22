@@ -2,7 +2,7 @@
     <main id="home">
         <h1 class="lg-heading">
             Dean
-            <span class="text-secondary">Cole</span>
+            <span class="text-secondary">Konkolewski</span>
         </h1>
         <h2 class="sm-heading">
             Web Developer, Programmer & Entrepreneur
